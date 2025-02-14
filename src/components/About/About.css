@@ -1,0 +1,56 @@
+/* About Us Page Container */
+.about-container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* Header Section */
+.about-header {
+    margin-bottom: 30px;
+}
+
+.about-header h1 {
+    font-size: 36px;
+    color: #1a1a2e;
+}
+
+.about-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* About Content Section */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* About Text */
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* About Image */
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
